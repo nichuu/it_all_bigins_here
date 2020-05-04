@@ -82,6 +82,10 @@
         mouseX = e.pageX;
         mouseY = e.pageY;
       }, false);
+      document.addEventListener('click', function(e) {
+        mouseX = e.pageY;
+        mouseY = e.pageX;
+      }, false);
 
       if (orientationSupport && !desktop) {
         window.addEventListener('deviceorientation', function () {
