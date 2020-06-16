@@ -12,58 +12,29 @@
   <!-- <script type='text/javascript' src='js/jquery-1.11.1.min.js'></script> -->
   <script type="text/javascript" src="js/jquery.particleground.js"></script>
   <script type="text/javascript" src="js/demo.js"></script>
+  <script src="./vanta/vendor/jquery.js"></script>
+  <script src="./vanta/vendor/three.r92.min.js"></script>
+  <script src="./vanta/dist/vanta.birds.min.js"></script>
+  <script src="./vanta/gallery/gallery.min.js"></script>
 </head>
 
 <body>
+  <section>
+  <div id="intro"  style="opacity: 0.8;background-color: #000010;width:100%;height: 100%; margin:0 auto;" >
 
-<div id="particles" onclick = "black()">
-  <div id="intro" style="opacity: 0.8;background-color: #000010;"  >
+
       <h2 style="font-family: 'Zapf Chancery', sans-serif; font-weight: 10; color:#B1FC04; font-size:230%"onmouseover="black()"><div class="popup" onmouseover="myFunction()" onclick = "black()">Nishanth G<span class="popuptext" id="myPopup">In search of sleep, sanity, & The Shire</span></div><div class="hide"><a href="" style="color: #B1FC04;"><i class="fas fa-user-ninja"></i></a></div></h2>
         <hr style="width: 30%;background-color: #B3AE4C; border-color: #B3AE4C;">
-     <a href="https://nichuu.github.io/portfolio/" style="color:#7362FF;"><i class="fas fa-laptop-code" style="font-size: 2em;" onmouseover="purple()"></i></a>
+     <a href="https://nichuu.github.io/portfolio/" style="color:#7362FF;"><i class="fas fa-laptop-code" style="font-size: 2em;" ></i></a>
     &nbsp
-    <a href="" style="color: #F50156;"><i class="fas fa-blind" style="font-size: 2em;"onmouseover="yellow()"></i></a>
+    <a href="" style="color: #F50156;"><i class="fas fa-blind" style="font-size: 2em;"></i></a>
     &nbsp
-    <a href="https://www.linkedin.com/in/nishanth-gandhi-350b54165/" style="color: #04DAFC;"><i class="fab fa-linkedin" style="font-size: 2em;"onmouseover="blue()"></i></a>
+    <a href="https://www.linkedin.com/in/nishanth-gandhi-350b54165/" style="color: #04DAFC;"><i class="fab fa-linkedin" style="font-size: 2em;"></i></a>
     &nbsp
-    <a href="https://www.instagram.com/nishanth_gandhi/?hl=en" style="color: #D77CF7;"><i class="fab fa-instagram" style="font-size: 2em;"onmouseover="pink()"></i></a>
+    <a href="https://www.instagram.com/nishanth_gandhi/?hl=en" style="color: #D77CF7;"><i class="fab fa-instagram" style="font-size: 2em;"></i></a>
   </div>
 </div>
-<script>
-// When the user clicks on div, open the popup
+</section>
 
-var el_up = document.getElementById("GFG_UP");
-            var el_down = document.getElementById("GFG_DOWN");
-            var str = "Click on button to change the background color";
-
-            el_up.innerHTML = str;
-
-            function changeColor(color) {
-                document.body.style.background = color;
-            }
-
-            function yellow() {
-                changeColor('#F50156');
-            }
-            function purple() {
-
-                changeColor('#6D00B4');
-            }
-            function blue() {
-                changeColor('#44B0F6');
-            }
-            function pink() {
-                changeColor('#AD38AF');
-            }
-            function black() {
-                changeColor('#000010');
-            }
-            function myFunction() {
-                var popup = document.getElementById("myPopup");
-                popup.classList.toggle("show");
-
-
-            }
-</script>
 </body>
 </html>
